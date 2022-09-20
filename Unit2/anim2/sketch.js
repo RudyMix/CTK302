@@ -1,8 +1,23 @@
+let x = 0;
+
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(400, 400);
 }
 
 function draw() {
+  background(100);
+  push();
+  translate(x, 0);
+  avatar();
+  x += 5; //means x = x + 5
+  if(x > width) {
+    x = -230;
+  }
+
+  pop();
+}
+
+function avatar() {
   if(mouseIsPressed) {
     
     fill(90);
