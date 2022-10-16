@@ -20,21 +20,24 @@ function draw() {
       break;
 
     case 0:
-      text("0", 100, 100);
+      backgound('red');
+      text("This song is called All That.", 100, 100);
       if (!s1.isPlaying()) {
         s1.play();
       }
       break;
     
     case 1:
-      text("1", 100, 100);
+      background('blue');
+      text("This song is called Downtown.", 100, 100);
       if (!s2.isPlaying()) {
         s2.play();
       }
       break;
 
     case 2:
-      text("2", 100, 100);
+      background('green');
+      text("This song is called Inspire.", 100, 100);
       if (!s3.isPlaying()) {
         s3.play();
       }
