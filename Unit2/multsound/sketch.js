@@ -16,7 +16,7 @@ function draw() {
   switch (state) {
     case -1:
       background(100);
-      text("Please click to start", 100, 100);
+      text("Please click to start.", 100, 100);
       break;
 
     case 0:
