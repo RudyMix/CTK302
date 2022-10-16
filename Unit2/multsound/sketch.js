@@ -20,7 +20,7 @@ function draw() {
       break;
 
     case 0:
-      backgound('red');
+      backgound("red");
       text("This song is called All That.", 100, 100);
       if (!s1.isPlaying()) {
         s1.play();
@@ -28,7 +28,7 @@ function draw() {
       break;
     
     case 1:
-      background('blue');
+      background("blue");
       text("This song is called Downtown.", 100, 100);
       if (!s2.isPlaying()) {
         s2.play();
@@ -36,7 +36,7 @@ function draw() {
       break;
 
     case 2:
-      background('green');
+      background("green");
       text("This song is called Inspire.", 100, 100);
       if (!s3.isPlaying()) {
         s3.play();
