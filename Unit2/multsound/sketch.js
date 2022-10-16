@@ -12,11 +12,11 @@ function setup() {
 }
 
 function draw() {
-  background(100);
 
   switch (state) {
     case -1:
-      text("please click to start", 100, 100);
+      background(100);
+      text("Please click to start", 100, 100);
       break;
 
     case 0:
