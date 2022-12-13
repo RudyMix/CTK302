@@ -21,14 +21,29 @@ function draw() {
     case 0:
       
       fill("black");
+      textSize(40);
+      text("How to Play Liar's Dice", width/2, height/2);
       noStroke();
+      textSize(10);
       text("Click to continue!", 450, 450);
       break;
     
     case 1:
+      background(1);
+      textSize(25);
+      fill("white");
+      text("Example of a round with three players", width/2, height/2);
       break;
 
     case 2:
+      background(255);
+      image(i1, width/2, height/2, 500, 500);
+      textSize(15);
+      text("Players will be", 250, 50);
+      text("Red");
+      text("Green");
+      text("Blue");
+
       timer++;
       if (timer > 2*60) {
         timer = 0;
@@ -37,9 +52,19 @@ function draw() {
       break;
 
     case 3:
+      background(255);
+      image(i1, width/2, height/2, 500, 500);
+      textSize(15);
+      text("Players will be", 250, 50);
+      text("Red");
+      text("Green");
+      text("Blue");
+      text("Each player has five dice.");
       break;
     
     case 4:
+      background(255);
+      image(i2, width/2, height/2, 500, 500);
       timer++;
       if (timer > 4*60) {
         timer = 0;
